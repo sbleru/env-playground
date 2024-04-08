@@ -1,0 +1,18 @@
+{
+  "name": "env-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:local-dev": "dotenv -e .env.local -e .env.dev node index.js",
+    "dev:local": "dotenv -e .env.local node index.js",
+    "dev:dev": "dotenv -e .env.dev node index.js",
+    "dev:dev-local": "dotenv -e .env.dev -e .env.local node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv-cli": "^7.4.1"
+  }
+}
